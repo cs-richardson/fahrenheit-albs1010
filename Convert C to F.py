@@ -1,5 +1,5 @@
 
-your_number = input("enter a whole number in celsius ")
+your_number = input("Enter a whole number in Celsius ")
 
 def convert(number):
     try:
@@ -8,7 +8,7 @@ def convert(number):
             new_number = value * 9/5 + 32
             return "C:" + str(value) + "\nF:" + str(new_number)
         else:
-            return str(value) + " is under absolute zero!"
+            return "Your number " + str(value) + " is under absolute zero!"
     
     except ValueError:
         return "You have to enter the number in numeric form!"
