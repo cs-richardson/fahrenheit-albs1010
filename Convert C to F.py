@@ -6,7 +6,7 @@ def convert(number):
         value = int(number)
         if value >= -273:
             new_number = value * 9/5 + 32
-            return "C:" + str(value) + "\nF:" + str(new_number)
+            return "C:" + str(value) + "˚" + "\nF:" + str(new_number) + "˚"
         else:
             return "Your number " + str(value) + " is under absolute zero!"
     
